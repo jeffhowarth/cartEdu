@@ -1,11 +1,9 @@
-##**Lessons for teaching cartography**  
+This project will provide suggested readings, questions, activities, and tutorials for teaching cartography. My goal is to provide a resource for both cartography teachers and students.    
 
-This site will be a collection of teaching resources, learning activities, and problem-based lessons for cartography.  
-
-*This is a work in progress. I am in the early stages of organizing a number of scattered documents and images into this central repo.*
+*WARNING: This is a work in progress at a very early stage of progress.*
 
 **Jeff Howarth**  
 Associate Professor  
-Geography Department
-Middlebury College
+Geography Department  
+Middlebury College  
 Middlebury, Vermont, USA   

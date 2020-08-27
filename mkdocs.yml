@@ -117,26 +117,57 @@ markdown_extensions:
 # Page tree
 nav:
   - Welcome: index.md
-  - Resources: resources.md
-  - Color:
-    - Munsell Color System: color/munsell.md
-    - Individual Differences: color/individual-differences.md
-  - Lettering:
-    - Lettering: lettering/lettering.md
-  - Symbols:
-    - Symbols: symbols/symbols.md
-  - Geographic Frameworks:
-    - Projections: geoFrameworks/projections.md
-  - Layout:
-    - Layout: layout/layout.md
-  - Relief:
-    - Shaded relief: relief/shadedRelief.md
-    - Color relief: relief/colorRelief.md
-    - Textured relief: relief/textureRelief.md
-    - Oblique relief: relief/obliqueRelief.md
-
-
-
+  - Organization: organization.md
+  - How to read maps:
+    - Scale: read/scale.md
+    - Reference system: read/reference-system.md
+    - Label: read/label.md
+    - Points: read/points.md
+    - Lines: read/lines.md
+    - Regions: read/regions.md
+    - Symbols: read/symbols.md
+    - Gradients: read/gradients.md
+    - Classes: read/classes.md
+    - Multivariate: read/multivariate.md
+    - Projections: read/projections.md
+    - Direction: read/direction.md
+    - Area: read/area.md
+    - Distance: read/distance.md
+  - How people use maps:
+    - Territory maps: use/territory.md
+    - Nautical charts: use/nautical.md
+    - Road maps: use/roads.md
+    - Transit maps: use/transit.md
+    - Bike maps: use/bike.md
+    - Hiking maps: use/hiking.md
+    - Aviation maps: use/aviation.md
+    - Flow maps: use/flow.md
+    - Redlining maps: use/redlining.md
+    - Conservation maps: use/conservation.md
+    - Health maps: use/health.md
+    - Census maps: use/census.md
+    - Election maps: use/election.md
+    - News maps: use/news.md
+  - How to design maps:
+    - Visual hierarchy: design/visual-hierarchy.md
+    - Simplify: design/simplify.md
+    - Color models: design/color-models.md
+    - Color palette: design/color-palette.md
+    - Munsell color system: design/munsell.md
+    - Perceptually uniform color: design/uniform-color.md
+    - Color blindness: design/color-blindness.md
+    - Fonts: design/fonts.md
+    - Pairing fonts: design/fonts-pairing.md
+    - Label placement: design/label-placement.md
+    - Icons: design/icons.md
+    - Layout: design/layout.md
+    - Shaded relief: design/reliefShaded.md
+    - Color relief: design/reliefColor.md
+    - Textured relief: design/reliefTexture.md
+    - Oblique relief: design/reliefOblique.md
+  - References for teachers:
+    - Practitioners who teach: references/practicalTeachers.md
+    - Multimedia learning principles: references/ctml.md
 #  - Contributing: contributing.md
 #  - License: license.md
 
