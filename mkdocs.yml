@@ -19,11 +19,11 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Lessons for Teaching Cartography
-site_url: https://github.com/jeffhowarth/cartEdu
+site_name: Cart Patterns
+site_url: https://github.com/cartEdu
 site_author: Jeff Howarth
 site_description: >-
-  A collection of teaching resources and lesson examples for cartography education.
+  Cartography patterns
 
 # Repository
 repo_name: jeffhowarth/cartEdu
@@ -31,12 +31,14 @@ repo_url: https://github.com/jeffhowarth/cartEdu
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2020 Jeff Howarth
+copyright: Copyright &copy; 2023 Jeff Howarth
 
 # Configuration
 theme:
+  logo: images/GG0150-icon.png
+  favicon: images/GG0150-icon.png
   name: material
-  #custom_dir: material
+  # custom_dir: mkdocs-material/material
 
   # 404 page
   static_templates:
@@ -48,24 +50,37 @@ theme:
 
   # Default values, taken from mkdocs_theme.yml
   language: en
+
   features:
-    - tabs
-    #- instant
+    # - tabs
+    - navigation.instant
+    # - navigation.sections
+    - navigation.indexes 
+    - navigation.footer 
+
+    - navigation.expand 
+    - content.code.copy
+
   palette:
-    scheme: default
-    primary: black
-    accent: black
+    scheme: white
+    primary: white
+    accent: orange
   font:
-    text: Helvetica
+    text: Libre Baskerville
+    # text: Didact Gothic
     code: Roboto Mono
-  icon:
-    logo: logo
-  favicon: assets/favicon.png
+
+extra_css:
+  - extra.css
 
 # Plugins
 plugins:
   - search
   - minify
+
+# src and site directories
+docs_dir: 'src'
+site_dir: 'docs'
 
 # Customization
 extra:
@@ -77,6 +92,7 @@ extra:
 
 # Extensions
 markdown_extensions:
+  - smarty
   - markdown.extensions.admonition
   - markdown.extensions.attr_list
   - markdown.extensions.codehilite:
@@ -85,8 +101,8 @@ markdown_extensions:
   - markdown.extensions.footnotes
   - markdown.extensions.meta
   - markdown.extensions.toc:
-      permalink: true
-      title: 'Task List'
+      permalink: false
+      toc_depth: 4
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -96,8 +112,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  # - pymdownx.highlight:
-  #     linenums_style: pymdownx-inline
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums_style: pymdownx-inline
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
@@ -108,70 +126,92 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format 
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - attr_list
 
 # Page tree
 nav:
-  - Welcome: index.md
-  - Organization: organization.md
-  - How to read maps:
-    - Scale: read/scale.md
-    - Reference system: read/reference-system.md
-    - Label: read/label.md
-    - Points: read/points.md
-    - Lines: read/lines.md
-    - Regions: read/regions.md
-    - Symbols: read/symbols.md
-    - Gradients: read/gradients.md
-    - Classes: read/classes.md
-    - Multivariate: read/multivariate.md
-    - Projections: read/projections.md
-    - Direction: read/direction.md
-    - Area: read/area.md
-    - Distance: read/distance.md
-  - How people use maps:
-    - Territory maps: use/territory.md
-    - Nautical charts: use/nautical.md
-    - Road maps: use/roads.md
-    - Transit maps: use/transit.md
-    - Bike maps: use/bike.md
-    - Hiking maps: use/hiking.md
-    - Aviation maps: use/aviation.md
-    - Flow maps: use/flow.md
-    - Redlining maps: use/redlining.md
-    - Conservation maps: use/conservation.md
-    - Health maps: use/health.md
-    - Census maps: use/census.md
-    - Election maps: use/election.md
-    - News maps: use/news.md
-  - How to design maps:
-    - Visual hierarchy: design/visual-hierarchy.md
-    - Simplify: design/simplify.md
-    - Color models: design/color-models.md
-    - Color palette: design/color-palette.md
-    - Munsell color system: design/munsell.md
-    - Perceptually uniform color: design/uniform-color.md
-    - Color blindness: design/color-blindness.md
-    - Fonts: design/fonts.md
-    - Pairing fonts: design/fonts-pairing.md
-    - Label placement: design/label-placement.md
-    - Icons: design/icons.md
-    - Layout: design/layout.md
-    - Shaded relief: design/reliefShaded.md
-    - Color relief: design/reliefColor.md
-    - Textured relief: design/reliefTexture.md
-    - Oblique relief: design/reliefOblique.md
-  - References for teachers:
-    - Practitioners who teach: references/practicalTeachers.md
-    - Multimedia learning principles: references/ctml.md
-#  - Contributing: contributing.md
+  - Welcome: index.md  
+  - Overview of patterns: overview.md  
+  - MORE ARTIFACT THAN ART: 
+    - Know your audience: artifact/know-your-audience.md  
+    - Object in the world: artifact/object-in-the-world.md  
+    - What is the point?: artifact/what-is-the-point.md
+  - VISUAL ARGUMENT: 
+    - Simplify the world: argument/simplify-the-world.md  
+    - Visual hierarchy: argument/visual-hierarchy.md  
+    - Layering layers: argument/layering-layers.md  
+    - Bigger appears greater: argument/bigger-appears-greater.md  
+    - Separable part: argument/separable-part.md  
+    - Simple palette: argument/simple-palette.md  
+    - Saturation pops: argument/saturation-pops.md  
+    - Candle-lit canvas: argument/candle-lit-canvas.md  
+  - VISUAL ARRANGEMENT:  
+    - Window on world: arrangement/window-on-world.md  
+    - Power position: arrangement/power-position.md  
+    - Visual center: arrangement/visual-center.md  
+    - Leaky container: arrangement/leaky-container.md  
+  - GEOGRAPHIC FRAMEWORK:  
+    - Topos trumps location: framework/topos-trumps-location.md  
+    - Where in the world: framework/where-in-the-world.md  
+    - Scales of thought: framework/scales-of-thought.md  
+    - Purposeful projection: framework/purposeful-projection.md  
+    - Scale bar: framework/scale-bar.md  
+    - Plumb central meridian: framework/plumb-central-meridian.md  
+    - Which was is up?: framework/which-way-is-up.md
+    - Graticule graph paper: framework/graticule-graph-paper.md  
+    - Blue graticule: framework/blue-graticule.md  
+    - Suggested nieghbor: framework/suggested-neighbor.md  
+    - Region provides axis: framework/region-provides-axis.md  
+    - Reinforce reference image: framework/reinforce-reference-image.md     
+    - Border index: framework/border-index.md  
+    - Messy metaphor of magnetism: framework/messy-metaphor-magnetism.md  
+    - Time as distance: framework/time-as-distance.md    
+  - SYMBOLS:  
+    - Symbol resembles referent: symbol/symbol-resembles-referent.md
+    - Linguistic metaphor: symbol/linguistic-metaphor.md  
+    - Simplify without distortion: symbol/simplify-without-distortion.md  
+    - Part stands for whole: symbol/part-stands-for-whole.md  
+    - Legible icons: symbol/legible-icon.md  
+    - Light through the keyhole: symbol/light-through-the-keyhole.md 
+    - Stop with the stoplight: symbol/stop-with-the-stoplight.md  
+    - Get over the rainbow: symbol/get-over-the-rainbow.md  
+  - LETTERING:  
+    - Type taxonomy: lettering/type-taxonomy.md  
+    - Visual association: lettering/visual-association.md  
+    - Rights of way: lettering/rights-of-way.md  
+    - According to Imhof: lettering/according-to-Imhof.md  
+    - Between but not touching: lettering/between-but-not-touching.md 
+    - Put labels in place: lettering/put-labels-in-place.md   
+    - Styles of place and time: lettering/styles-of-place-and-time.md  
+    - Areal labels: lettering/areal-labels.md  
+  - TERRAIN:
+    - Structure at a glance: terrain/structure-at-a-glance.md 
+    - Right-hand legacy: terrain/right-hand-legacy.md   
+    - Late sunrise: terrain/late-sunrise.md   
+    - Half-tone landscape: terrain/half-tone-landscape.md   
+    - Illuminating oblique: terrain/illuminating-oblique.md  
+    - Hypsometric tint: terrain/hypsometric-tint.md  
+    - Skeletal lines: terrain/skeletal-lines.md  
+    - Ripples: terrain/ripples.md  
+    - Hachures: terrain/hachures.md  
+    - Grading lines: terrain/grading-lines.md  
+  - ISOLINES:  
+    - Index contours: isolines/index-contours.md  
+    - Lines, not fills: isolines/lines-not-fills.md
+    - Ladder labels: isolines/ladder-labels.md  
+    - Leveled labels: isolines/leveled-labels.md  
+  - LEGENDS:  
+    - Dictionary definitions: legend/dictionary-definitions.md  
+    - Tobler meets Sullivan: legend/Tobler-meets-Sullivan.md  
+    - Define in context: legend/define-in-context.md  
+  
 #  - License: license.md
-
-# Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto

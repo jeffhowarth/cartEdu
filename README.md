@@ -1,1 +1,3 @@
-This is a work in progress. My goal is to share lesson materials for teaching cartography.  
+## Cart lessons  
+
+A collection of materials for teaching cartography to undergraduate students. This is a work in progress and will be updated over the course in the spring 2022.  
