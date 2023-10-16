@@ -19,7 +19,7 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Cart Patterns
+site_name: Patterns for Making Maps
 site_url: https://github.com/cartEdu
 site_author: Jeff Howarth
 site_description: >-
@@ -139,7 +139,8 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Welcome: index.md  
+  - Title page: index.md  
+  - Introduction: introduction.md    
   - Overview of patterns: overview.md  
   - MORE ARTIFACT THAN ART: 
     - Know your audience: artifact/know-your-audience.md  
