@@ -52,9 +52,8 @@ theme:
   language: en
 
   features:
-    # - tabs
     - navigation.instant
-    # - navigation.sections
+    - navigation.sections
     - navigation.indexes 
     - navigation.footer 
 
@@ -142,24 +141,26 @@ nav:
   - Title page: index.md  
   - Introduction: introduction.md    
   - Overview of patterns: overview.md  
-  - MORE ARTIFACT THAN ART: 
+  - ARTIFACT WITH ART: 
+    - Creative notebook: artifact/creative-notebook.md  
     - Know your audience: artifact/know-your-audience.md  
     - Object in the world: artifact/object-in-the-world.md  
-    - What is the point?: artifact/what-is-the-point.md
+  - VISUAL ARRANGEMENT:  
+    - Invisible grid: arrangement/invisible-grid.md  
+    - Window on world: arrangement/window-on-world.md  
+    - Power position: arrangement/power-position.md  
+    - Visual center: arrangement/visual-center.md  
+    - Leaky container: arrangement/leaky-container.md  
   - VISUAL ARGUMENT: 
     - Simplify the world: argument/simplify-the-world.md  
     - Visual hierarchy: argument/visual-hierarchy.md  
+    - What is the point?: argument/what-is-the-point.md
     - Layering layers: argument/layering-layers.md  
     - Bigger appears greater: argument/bigger-appears-greater.md  
     - Separable part: argument/separable-part.md  
     - Simple palette: argument/simple-palette.md  
     - Saturation pops: argument/saturation-pops.md  
     - Candle-lit canvas: argument/candle-lit-canvas.md  
-  - VISUAL ARRANGEMENT:  
-    - Window on world: arrangement/window-on-world.md  
-    - Power position: arrangement/power-position.md  
-    - Visual center: arrangement/visual-center.md  
-    - Leaky container: arrangement/leaky-container.md  
   - GEOGRAPHIC FRAMEWORK:  
     - Topos trumps location: framework/topos-trumps-location.md  
     - Where in the world: framework/where-in-the-world.md  

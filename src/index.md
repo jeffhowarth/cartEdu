@@ -1,14 +1,11 @@
 # Patterns for Making Maps  
 
 **Jeff Howarth**  
-Associate Professor  
-Geography Department  
-Middlebury College  
-Middlebury, Vermont, USA  
+Associate Professor, Geography Department, Middlebury College, USA  
 
 ---
 
-_Last update: 10/2023_  
+_Last update: 02/2024_  
 
 ---
 
