@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "<Gill Sans>";
+    src: "...";
+  }
+
+:root {
+    --md-text-font: Libre Baskerville;
+    --md-h1-font: Gill Sans;
+}

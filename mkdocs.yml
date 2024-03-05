@@ -53,24 +53,26 @@ theme:
 
   features:
     - navigation.instant
-    - navigation.sections
+    # - navigation.sections
     - navigation.indexes 
     - navigation.footer 
 
-    - navigation.expand 
+    # - navigation.expand 
     - content.code.copy
+    - toc.integrate  
 
   palette:
     scheme: white
     primary: white
     accent: orange
   font:
-    text: Libre Baskerville
+    # text: Libre Baskerville
+    text: Helvetica
     # text: Didact Gothic
     code: Roboto Mono
 
-extra_css:
-  - extra.css
+# extra_css:
+#   - stylesheets/extra.css
 
 # Plugins
 plugins:
@@ -140,81 +142,92 @@ markdown_extensions:
 nav:
   - Title page: index.md  
   - Introduction: introduction.md    
-  - Overview of patterns: overview.md  
-  - ARTIFACT WITH ART: 
-    - Creative notebook: artifact/creative-notebook.md  
-    - Know your audience: artifact/know-your-audience.md  
-    - Object in the world: artifact/object-in-the-world.md  
-  - VISUAL ARRANGEMENT:  
-    - Invisible grid: arrangement/invisible-grid.md  
-    - Window on world: arrangement/window-on-world.md  
-    - Power position: arrangement/power-position.md  
-    - Visual center: arrangement/visual-center.md  
-    - Leaky container: arrangement/leaky-container.md  
-  - VISUAL ARGUMENT: 
-    - Simplify the world: argument/simplify-the-world.md  
-    - Visual hierarchy: argument/visual-hierarchy.md  
-    - What is the point?: argument/what-is-the-point.md
-    - Layering layers: argument/layering-layers.md  
-    - Bigger appears greater: argument/bigger-appears-greater.md  
-    - Separable part: argument/separable-part.md  
-    - Simple palette: argument/simple-palette.md  
-    - Saturation pops: argument/saturation-pops.md  
-    - Candle-lit canvas: argument/candle-lit-canvas.md  
-  - GEOGRAPHIC FRAMEWORK:  
-    - Topos trumps location: framework/topos-trumps-location.md  
-    - Where in the world: framework/where-in-the-world.md  
-    - Scales of thought: framework/scales-of-thought.md  
-    - Purposeful projection: framework/purposeful-projection.md  
-    - Scale bar: framework/scale-bar.md  
-    - Plumb central meridian: framework/plumb-central-meridian.md  
-    - Which was is up?: framework/which-way-is-up.md
-    - Graticule graph paper: framework/graticule-graph-paper.md  
-    - Blue graticule: framework/blue-graticule.md  
-    - Suggested nieghbor: framework/suggested-neighbor.md  
-    - Region provides axis: framework/region-provides-axis.md  
-    - Reinforce reference image: framework/reinforce-reference-image.md     
-    - Border index: framework/border-index.md  
-    - Messy metaphor of magnetism: framework/messy-metaphor-magnetism.md  
-    - Time as distance: framework/time-as-distance.md    
-  - SYMBOLS:  
-    - Symbol resembles referent: symbol/symbol-resembles-referent.md
-    - Linguistic metaphor: symbol/linguistic-metaphor.md  
-    - Simplify without distortion: symbol/simplify-without-distortion.md  
-    - Part stands for whole: symbol/part-stands-for-whole.md  
-    - Legible icons: symbol/legible-icon.md  
-    - Light through the keyhole: symbol/light-through-the-keyhole.md 
-    - Stop with the stoplight: symbol/stop-with-the-stoplight.md  
-    - Get over the rainbow: symbol/get-over-the-rainbow.md  
-  - LETTERING:  
-    - Type taxonomy: lettering/type-taxonomy.md  
-    - Visual association: lettering/visual-association.md  
-    - Rights of way: lettering/rights-of-way.md  
-    - According to Imhof: lettering/according-to-Imhof.md  
-    - Between but not touching: lettering/between-but-not-touching.md 
-    - Put labels in place: lettering/put-labels-in-place.md   
-    - Styles of place and time: lettering/styles-of-place-and-time.md  
-    - Areal labels: lettering/areal-labels.md  
-  - TERRAIN:
-    - Structure at a glance: terrain/structure-at-a-glance.md 
-    - Right-hand legacy: terrain/right-hand-legacy.md   
-    - Late sunrise: terrain/late-sunrise.md   
-    - Half-tone landscape: terrain/half-tone-landscape.md   
-    - Illuminating oblique: terrain/illuminating-oblique.md  
-    - The steeper, the darker: terrain/the-steeper-the-darker.md
-    - Hypsometric tint: terrain/hypsometric-tint.md  
-    - Skeletal lines: terrain/skeletal-lines.md  
-    - Ripples: terrain/ripples.md  
-    - Hachures: terrain/hachures.md  
-    - Grading lines: terrain/grading-lines.md  
-  - ISOLINES:  
-    - Index contours: isolines/index-contours.md  
-    - Lines, not fills: isolines/lines-not-fills.md
-    - Ladder labels: isolines/ladder-labels.md  
-    - Leveled labels: isolines/leveled-labels.md  
-  - LEGENDS:  
-    - Dictionary definitions: legend/dictionary-definitions.md  
-    - Tobler meets Sullivan: legend/Tobler-meets-Sullivan.md  
-    - Define in context: legend/define-in-context.md  
+  - Overview of patterns: overview.md
+  - GENERAL PATTERNS:  
+    - ARTIFACT WITH ART: 
+      - Creative notebook: general/artifact/creative-notebook.md  
+      - Know your audience: general/artifact/know-your-audience.md  
+      - Object in the world: general/artifact/object-in-the-world.md  
+    - VISUAL ARRANGEMENT:  
+      - Invisible grid: general/arrangement/invisible-grid.md  
+      - Window on world: general/arrangement/window-on-world.md  
+      - Power position: general/arrangement/power-position.md  
+      - Visual center: general/arrangement/visual-center.md  
+      - Leaky container: general/arrangement/leaky-container.md  
+    - VISUAL ARGUMENT: 
+      - Simplify the world: general/argument/simplify-the-world.md  
+      - Visual hierarchy: general/argument/visual-hierarchy.md  
+      - What is the point?: general/argument/what-is-the-point.md
+      - Layering layers: general/argument/layering-layers.md  
+      - Bigger appears greater: general/argument/bigger-appears-greater.md  
+      - Separable part: general/argument/separable-part.md  
+      - Simple palette: general/argument/simple-palette.md  
+      - Saturation pops: general/argument/saturation-pops.md  
+      - Candle-lit canvas: general/argument/candle-lit-canvas.md  
+    - GEOGRAPHIC FRAMEWORK:  
+      - Topos trumps location: general/framework/topos-trumps-location.md  
+      - Where in the world: general/framework/where-in-the-world.md  
+      - Scales of thought: general/framework/scales-of-thought.md  
+      - Purposeful projection: general/framework/purposeful-projection.md  
+      - Scale bar: general/framework/scale-bar.md  
+      - Plumb central meridian: general/framework/plumb-central-meridian.md  
+      - Which was is up?: general/framework/which-way-is-up.md
+      - Graticule graph paper: general/framework/graticule-graph-paper.md  
+      - Blue graticule: general/framework/blue-graticule.md  
+      - Suggested nieghbor: general/framework/suggested-neighbor.md  
+      - Region provides axis: general/framework/region-provides-axis.md  
+      - Reinforce reference image: general/framework/reinforce-reference-image.md     
+      - Border index: general/framework/border-index.md  
+      - Messy metaphor of magnetism: general/framework/messy-metaphor-magnetism.md  
+      - Time as distance: general/framework/time-as-distance.md  
+    - SCALE:
+      - Simplify without distortion: general/scale/simplify-without-distortion.md   
+    - COLOR:  
+      - Light through the keyhole: general/color/light-through-the-keyhole.md 
+      - Stop with the stoplight: general/color/stop-with-the-stoplight.md  
+      - Get over the rainbow: general/color/get-over-the-rainbow.md  
+    - ICONS:   
+      - Symbol resembles referent: general/icons/symbol-resembles-referent.md
+      - Linguistic metaphor: general/icons/linguistic-metaphor.md  
+      - Legible icons: general/icons/legible-icon.md  
+    - LETTERING:  
+      - Type taxonomy: general/lettering/type-taxonomy.md  
+      - Visual association: general/lettering/visual-association.md  
+      - Rights of way: general/lettering/rights-of-way.md  
+      - According to Imhof: general/lettering/according-to-Imhof.md  
+      - Between but not touching: general/lettering/between-but-not-touching.md 
+      - Put labels in place: general/lettering/put-labels-in-place.md   
+      - Styles of place and time: general/lettering/styles-of-place-and-time.md  
+      - Areal labels: general/lettering/areal-labels.md  
+    # - TERRAIN:
+    #   - Structure at a glance: general/terrain/structure-at-a-glance.md 
+    #   - Right-hand legacy: general/terrain/right-hand-legacy.md   
+    #   - Late sunrise: general/terrain/late-sunrise.md   
+    #   - Half-tone landscape: general/terrain/half-tone-landscape.md   
+    #   - Illuminating oblique: general/terrain/illuminating-oblique.md  
+    #   - The steeper, the darker: general/terrain/the-steeper-the-darker.md
+    #   - Hypsometric tint: general/terrain/hypsometric-tint.md  
+    #   - Skeletal lines: general/terrain/skeletal-lines.md  
+    #   - Ripples: general/terrain/ripples.md  
+    #   - Hachures: general/terrain/hachures.md  
+    #   - Grading lines: general/terrain/grading-lines.md  
+    - ISOLINES:  
+      - Index contours: general/isolines/index-contours.md  
+      - Lines, not fills: general/isolines/lines-not-fills.md
+      - Ladder labels: general/isolines/ladder-labels.md  
+      - Leveled labels: general/isolines/leveled-labels.md  
+    - LEGENDS:  
+      - Dictionary definitions: general/legend/dictionary-definitions.md  
+      - Tobler meets Sullivan: general/legend/Tobler-meets-Sullivan.md  
+      - Define in context: general/legend/define-in-context.md  
+  - SPECIFIC PATTERNS:
+    - Water: specific/patterns-water.md  
+  - GOOD EXAMPLES:  
+    - REFERENCE MAPS:
+      - Political: examples/reference-political.md  
+      - Topographic: examples/reference-topographic.md  
+
+
+    
   
 #  - License: license.md
