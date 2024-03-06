@@ -154,11 +154,13 @@ nav:
     - Key: general/key.md   
   - II. Thematic patterns:    
     - Water: thematic/patterns-water.md  
-  - III. Good Examples:  
+  - III. Examples:  
     - Reference maps:
       - Political: examples/reference-political.md 
-      - Road maps: examples/reference-roads.md   
+      - Road: examples/reference-roads.md   
       - Topographic: examples/reference-topographic.md  
+    - Thematic maps:  
+      - Population: examples/thematic-population.md  
 
 
     

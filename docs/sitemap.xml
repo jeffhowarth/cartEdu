@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/cartEdu/examples/thematic-population/</loc>
+         <lastmod>2024-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/cartEdu/general/artifact/</loc>
          <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>

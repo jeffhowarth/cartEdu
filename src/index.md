@@ -15,7 +15,7 @@ This site aims to reproduce the old handout and build on it.
 
 [Section II](thematic/patterns-water.md) (will) describe patterns for particular thematic elements depicted on maps. These patterns are more concrete and identify conventions or recurring solutions to map symbolization problems.  
 
-[Section III](examples/reference-topographic.md) (will) organize a set of good examples for different types of maps that illustrate many of the patterns described in the book. 
+[Section III](examples/reference-topographic.md) (will) organize a set of examples for different types of maps that illustrate many of the patterns described in the book. 
 
 All together, the book aims to support two fundamental laws of mapmaking:
 
