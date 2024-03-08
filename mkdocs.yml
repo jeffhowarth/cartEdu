@@ -155,12 +155,14 @@ nav:
   - II. Thematic patterns:    
     - Water: thematic/patterns-water.md  
   - III. Examples:  
-    - Reference maps:
-      - Political: examples/reference-political.md 
-      - Road: examples/reference-roads.md   
-      - Topographic: examples/reference-topographic.md  
-    - Thematic maps:  
-      - Population: examples/thematic-population.md  
+    - Health maps: examples/health.md  
+    - Moral statistics maps: examples/moral-statistics.md
+    - Political maps: examples/political.md 
+    - Population maps: examples/population.md  
+    - Road maps: examples/roads.md  
+    - Topographic maps: examples/topographic.md  
+
+
 
 
     
