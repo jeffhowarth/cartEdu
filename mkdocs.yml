@@ -142,10 +142,12 @@ markdown_extensions:
 nav:
   - Home: index.md  
   - I. General patterns:  
-    - Introduction: general/introduction.md    
-    - Artifact with art: general/artifact.md 
-    - Visual arrangement: general/visual-arrangement.md    
-    - Visual argument: general/visual-argument.md  
+    - Introduction: general/introduction.md   
+    - Looking to see: general/looking-to-see.md    
+    - Setting your problem: general/problem-setting.md 
+    - Compilation: general/compilation.md  
+    - Arrangement: general/arrangement.md    
+    - Layering: general/layering.md
     - Geographic framework: general/geographic-framework.md   
     - Scale & Detail: general/scale-detail.md  
     - Color: general/color.md   

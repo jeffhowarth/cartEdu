@@ -66,12 +66,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/cartEdu/general/artifact/</loc>
+         <loc>https://github.com/cartEdu/general/arrangement/</loc>
          <lastmod>2024-03-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/cartEdu/general/color/</loc>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/cartEdu/general/compilation/</loc>
          <lastmod>2024-03-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -96,22 +101,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/cartEdu/general/layering/</loc>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/cartEdu/general/lettering/</loc>
          <lastmod>2024-03-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/cartEdu/general/looking-to-see/</loc>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/cartEdu/general/problem-setting/</loc>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/cartEdu/general/scale-detail/</loc>
-         <lastmod>2024-03-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/cartEdu/general/visual-argument/</loc>
-         <lastmod>2024-03-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/cartEdu/general/visual-arrangement/</loc>
          <lastmod>2024-03-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
