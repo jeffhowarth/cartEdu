@@ -152,15 +152,28 @@ nav:
     - Icons: general/icons.md    
     - Lettering: general/lettering.md    
     - Key: general/key.md   
-  - II. Thematic patterns:    
+  - II. Thematic patterns: 
+    - Text on maps: thematic/text-on-maps.md     
     - Water: thematic/patterns-water.md  
-  - III. Examples:  
-    - Health maps: examples/health.md  
-    - Moral statistics maps: examples/moral-statistics.md
-    - Political maps: examples/political.md 
-    - Population maps: examples/population.md  
-    - Road maps: examples/roads.md  
-    - Topographic maps: examples/topographic.md  
+  - III. Examples:
+    - Reference maps:  
+      - Political maps: examples/political.md 
+      - Road maps: examples/roads.md  
+      - Topographic maps: examples/topographic.md  
+    - Social themes:    
+      - Health maps: examples/health.md  
+      - Moral statistics maps: examples/moral-statistics.md
+      - Population maps: examples/population.md  
+      - Route maps: examples/routes.md  
+    - Physical themes:
+      - Bathymetry maps: examples/bathymetry.md  
+      - Mountains: examples/mountains.md
+    - Cartographers:  
+      - Richard Edes Harrison: examples/cartographer-harrison.md  
+      - Eduard Imhof: examples/cartographer-imhof.md  
+      - Erwin Raisz: examples/cartographer-raisz.md  
+
+
 
 
 
