@@ -166,7 +166,7 @@ nav:
       - Population maps: examples/population.md  
       - Route maps: examples/routes.md  
     - Physical themes:
-      - Bathymetry maps: examples/bathymetry.md  
+      - Bathymetry: examples/bathymetry.md  
       - Mountains: examples/mountains.md
     - Cartographers:  
       - Richard Edes Harrison: examples/cartographer-harrison.md  
