@@ -167,13 +167,15 @@ nav:
       - Moral statistics maps: examples/moral-statistics.md
       - Population maps: examples/population.md  
       - Route maps: examples/routes.md  
+      - War maps: examples/war.md  
     - Physical themes:
       - Bathymetry: examples/bathymetry.md  
       - Mountains: examples/mountains.md
     - Cartographers:  
-      - Richard Edes Harrison: examples/cartographer-harrison.md  
-      - Eduard Imhof: examples/cartographer-imhof.md  
-      - Erwin Raisz: examples/cartographer-raisz.md  
+      - Richard Edes Harrison (1901-1994): examples/cartographer-harrison.md  
+      - Eduard Imhof (1895-1986): examples/cartographer-imhof.md  
+      - Tom Patterson: examples/cartographer-patterson.md  
+      - Erwin Raisz (1893-1968): examples/cartographer-raisz.md  
 
 
 
