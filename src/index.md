@@ -1,4 +1,4 @@
-# Patterns for Making Maps 
+# __Patterns for Making Maps__ 
 
 --- 
 
