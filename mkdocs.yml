@@ -19,11 +19,11 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Mapmaking Patterns  
+site_name: cart patterns  
 site_url: https://github.com/cartEdu
 site_author: Jeff Howarth
 site_description: >-
-  Cartography patterns
+  cartography patterns
 
 # Repository
 repo_name: jeffhowarth/cartEdu
@@ -31,7 +31,7 @@ repo_url: https://github.com/jeffhowarth/cartEdu
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2023 Jeff Howarth
+copyright: Copyright &copy; 2024 Jeff Howarth
 
 # Configuration
 theme:
