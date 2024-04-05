@@ -141,7 +141,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md  
-  - I. General patterns:  
+  - PATTERNS:  
     - Introduction: general/introduction.md   
     - Looking to see: general/looking-to-see.md    
     - Setting your problem: general/problem-setting.md 
@@ -154,10 +154,7 @@ nav:
     - Icons: general/icons.md    
     - Lettering: general/lettering.md    
     - Key: general/key.md   
-  - II. Thematic patterns: 
-    - Text on maps: thematic/text-on-maps.md     
-    - Water: thematic/patterns-water.md  
-  - III. Examples:
+  - EXAMPLES:
     - Reference maps:  
       - Political maps: examples/political.md 
       - Road maps: examples/roads.md  
